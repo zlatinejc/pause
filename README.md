@@ -11,13 +11,13 @@ var start = Date.now();
 var res = pause.millis(1000);
 var end = Date.now();
 
-console.log(start - end); // => 1000
+console.log(end - start); // => 1000
 
 var start = Date.now();
 var res = pause.seconds(1);
 var end = Date.now();
 
-console.log(start - end); // => 1
+console.log((end - start) / 1000 ); // => 1
 
 ```
 
