@@ -1,0 +1,18 @@
+{
+  "name": "pause",
+  "version": "1.0.0",
+  "description": "A handful tool to pause execution of all JavaScript code built on top of a famous library thread-sleep",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zlatinejc/pause.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zlatinejc",
+  "license": "MIT",
+  "dependencies": {
+	  "thread-sleep" : "latest"
+  }
+}
