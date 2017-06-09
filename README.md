@@ -1,6 +1,6 @@
 # pause
 
-A native module for effectively pausing the current thread. Used for busy waiting scenarios where you want to check something every few hunderd milliseconds.
+A native module for effectively pausing the current thread. Used for busy waiting scenarios where you want to check something every few milliseconds / seconds.
 
 ## Usage
 
