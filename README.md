@@ -5,7 +5,7 @@ A native module for effectively pausing the current thread. Used for busy waitin
 ## Usage
 
 ```js
-var pause = require('pause');
+var pause = require('pause-js');
 
 var start = Date.now();
 var res = pause.millis(1000);
