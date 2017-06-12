@@ -1,6 +1,6 @@
 {
   "name": "pause-js",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A handful tool to pause execution of all JavaScript code built on top of a famous library thread-sleep",
   "main": "index.js",
   "repository": {
@@ -14,5 +14,12 @@
   "license": "MIT",
   "dependencies": {
 	  "thread-sleep" : "latest"
-  }
+  },
+  "keywords": [
+    "pause",
+    "sleep",
+    "wait",
+    "until",
+    "waituntil"
+  ]
 }
